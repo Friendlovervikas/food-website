@@ -1,0 +1,120 @@
+.cart{
+    margin-right: 5rem;
+
+}
+.cart-item-title{
+    /* display: grid;
+    grid-template-columns: 0.2fr 0fr 0.5fr 0.5fr 0fr; */
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+   padding-left: 2rem;
+    align-items: center;
+    color: gray;
+    font-size: max(1vw,12px);
+}
+body{
+   max-width: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.card-item-items img{
+    width:38px;
+    border-radius: 50%;
+}
+.card-item-items {
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 2rem;
+
+}
+.cross{
+    padding-left: 5rem;
+    cursor: pointer;
+    
+}
+.total{
+    display: flex;
+    border: 1px solid blue;
+
+
+}
+.cart_bottom{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    margin-top: 80px;
+    height: auto;
+    gap: max(12vw,20px);
+    padding-left:150px;
+    padding-bottom: 15px;
+
+
+}
+.cart_total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart_total_details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+
+}
+.cart_total hr{
+    margin: 10px 0px;
+}
+.cart_total h2{
+    font-size: 32px;
+}
+.cart_total p{
+    font-size: 18px;
+}
+.cart_total b{
+    font-size: 20px;
+}
+.cart_total button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.cart_promo_cord{
+    flex: 1;
+
+}
+.cart_promo_cord p{
+    color: #555;
+}
+.card_promocord{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(179, 177, 177);
+    border-radius: 4px;
+
+}
+.card_promocord input{
+    background: transparent;
+    border: none;
+    outline: 1px;
+    padding-left: 10px;
+}
+.card_promocord button{
+    width: max(10vw,150px);
+    padding: 6px 2px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+

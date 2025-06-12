@@ -1,0 +1,58 @@
+/* AboutUs.css */
+
+.about-us-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us-header h1 {
+  font-size: 2.5rem;
+  color: #ff6347;
+}
+
+.about-us-content {
+  margin-bottom: 20px;
+}
+
+.about-us-content p {
+  margin-bottom: 15px;
+}
+
+.about-us-content h2 {
+  font-size: 1.8rem;
+  color: #ff6347;
+  margin-top: 20px;
+}
+
+.about-us-content ul {
+  list-style-type: disc;
+  margin: 15px 0 15px 20px;
+  padding: 0;
+}
+
+.about-us-content ul li {
+  margin-bottom: 10px;
+}
+
+.about-us-footer {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.about-us-footer p {
+  font-size: 0.9rem;
+  color: #666;
+}

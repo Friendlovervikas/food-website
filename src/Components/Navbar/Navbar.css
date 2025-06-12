@@ -1,0 +1,82 @@
+.navbar{
+    padding: 20px 2%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fa-pot-food{
+    cursor: pointer;
+}
+.navbar h2{
+    color: tomato;
+}
+
+.navbar .navbar-menu{
+    display: flex;
+    gap: 20px;
+    color: #495749;
+    font-family: outfit;
+    list-style: none;
+}
+.navbar .button{
+    background: transparent;
+    font-size: 16px;
+    color: #495749;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px  16px;
+    transition: 0.3s;
+
+}
+.button:hover{
+    /* transition:0.3s ease; */
+    background: #000a00;
+
+}
+.cart{
+    padding-right: -2px;
+    margin-right: -7rem;
+    color: rgb(8, 6, 6);
+    font-size: 1.3rem;
+    position: relative;
+
+}
+.navbar li{
+    cursor: pointer;
+    /* transition: 0.3s; */
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid  #495749;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+.hello1{
+    display:none;
+}
+@media screen and (max-width:850px) {
+    .hello1{
+        display: fixed;
+        padding-top: 10px;
+        z-index: 10;
+        width: 100%;
+
+    }
+    .navbar ul{
+        display: ${isopen ? 'inline': 'none'};
+    }
+}

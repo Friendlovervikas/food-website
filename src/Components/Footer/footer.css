@@ -1,0 +1,52 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Ensure it doesn't overlap */
+    z-index: 10;/* Make sure it appears above other elements */
+    top: 1350px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px 0;
+    max-width: 300px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.social-icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer {
+        position: absolute;
+        top: 6850px;
+    }
+    
+}
+

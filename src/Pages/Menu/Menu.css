@@ -1,0 +1,65 @@
+/* Menu.css */
+
+.menu-container {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  padding: 20px;
+  margin-bottom: -200%;
+  text-align: center;
+}
+
+.menu-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid #ddd; /* Adds a border around the image */
+  padding: 5px; /* Space between image and border */
+  box-sizing: border-box; /* Ensures padding is inside the border */
+}
+
+.menu-item h2 {
+  font-size: 1.75rem;
+  color: #444;
+  margin: 15px 0 10px;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.menu-item p:last-child {
+  font-weight: bold;
+  color: #333;
+}
+.hello{
+  padding-top: 12px;
+}
